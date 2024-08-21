@@ -13,4 +13,7 @@ This repository also includes contributions from keanoserver, which are licensed
 ## License Summary
 
 - **MIT License**: Applies to the original code from jen_h and the contributions made by keanoserver.
-- **Additional Licensing Terms**: [If applicable, detail any additional or different licensing terms here.]
+
+## The makers of the files
+
+-
