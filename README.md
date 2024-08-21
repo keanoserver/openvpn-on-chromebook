@@ -16,7 +16,7 @@ This repository also includes contributions from keanoserver, which are licensed
 
 ## The makers of the files
 
--[ChromeTemplate.onc](ChromeTemplate.onc) | jen_h
--[onc.py](onc.py) | jen_h
--[p12.py](p12.py) | keanoserver
--[instructions.md](instructions.md) | keanoserver
+- **[ChromeTemplate.onc](ChromeTemplate.onc)** | jen_h
+- **[onc.py](onc.py)** | jen_h
+- **[p12.py](p12.py)** | keanoserver
+- **[instructions.md](instructions.md)** | keanoserver
