@@ -32,6 +32,10 @@ and after than
 ```
 sudo python onc.py
 ```
+or
+```
+sudo python ovpnoncorator.py -c /path/to/my/server.conf -k /path/to/my/keystore-directory
+```
 
 Now we have the .onc file, We only need the .p12 file now.
 
