@@ -66,7 +66,7 @@ chrome://network/#general
 ```
 scroll down until you find onc-file import. Chose the .onc file and it shuld say no file chosen. Then go to youre vpn options and you shuld see a new vpn connection.
 Click on the cpn connection and click configure.
-Make teh hostname youre public ip with port, ddns or domain all of them with ":(youre port for the vpn)" after it.
+Make the hostname youre public ip with port, ddns or domain all of them with ":(youre port for the vpn)" after it.
 Then scrol down and select the client certificate you imported.
 After that you need to enter a password it can be anything you dont need to remember it. 
 Then scroll down and click on "save indentity and password".
