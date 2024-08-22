@@ -26,7 +26,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 then
 ```
-cd openvpn-on-chromebook
+cd openvpn-on-chromebook-main
 ```
 and after than
 ```
@@ -45,7 +45,7 @@ sudo apt install python3
 ```
 then
 ```
-cd openvpn-on-chromebook
+cd openvpn-on-chromebook-main
 ```
 then
 ```
