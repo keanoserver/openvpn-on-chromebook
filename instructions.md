@@ -1,60 +1,47 @@
 [VPN install on Chromebook]
 
-For OpenVPN on Chromebook, you need an .onc file and a p12 file, and we are going to make those.
-First, to make a .onc file, you have 2 choices: 
+For OpenVPN on Chromebook, you need an .onc file and a .p12 file, and we are going to make those.
+First, to make a .onc and .p12 file, you have 2 choices: 
 1. Make a client with the name "client".
-2. Change the name of the onc.py file.
+2. Change the name of the vpn.py file.
 
 If you chose option 1, you can skip this part. If you chose option 2, follow this:
-Open onc.py with:
+Open vpn.py with:
 ```
-sudo nano onc.py
+sudo nano vpn.py
 ```
 or
 ```
-sudo vi onc.py
+sudo vi vpn.py
 ```
-Change the "client" in "/private/client.key" and "/issued/client.crt".
+Change the "client" in "/private/client.key" and "/issued/client.crt" on the lines 97,98,108 and 110.
 Save an exit after you change the "client".
 
-Now we continue. You need to install an older version of python for the "onc.py" the version you need is "python 2.7.16" you can install it on this [website](https://www.python.org/downloads/release/python-2716/).
-After you install Python 2.7.16 on your device, we can continue.
-
-First, update your system with:
-```
-sudo apt update && sudo apt upgrade -y
-```
-then
-```
-cd openvpn-on-chromebook-main
-```
-and after than
-```
-sudo python onc.py
-```
-or
-```
-sudo python ovpnoncorator.py -c /path/to/my/server.conf -k /path/to/my/keystore-directory
-```
-
-Now we have the .onc file, We only need the .p12 file .
-
-To make the .p12 file, you need to follow these steps:
+Now we continue. You need to have python3 installed you can do this with:
 ```
 sudo apt install python3
 ```
+
+First, update your system with:
+```
+sudo apt update && sudo apt full-upgrade -y
+```
 then
 ```
 cd openvpn-on-chromebook-main
 ```
-then
+and after that
 ```
-sudo python3 p12.py
+sudo python3 vpn.py
 ```
-After that, follow the instructions of the program.
-If you're save path didn't end with a "/" it will automatically save in "/".
+or
+```
+sudo python3 vpn.py -c /path/to/my/server.conf -k /path/to/my/keystore-directory
+```
 
-Now you need to get the .onc and the .p12 file on you're Chromebook. You can use: sftp, a usb stick or youre own method.
+Now we have the .onc file and the .p12 file.
+
+Second you need to get the .onc and the .p12 file on you're Chromebook. You can use: sftp, a usb stick or youre own method.
 If you have youre 2 files on youre Chromebook open "Chrome" and search this in the search bar:
 ```
 chrome://certificate-manager

@@ -26,7 +26,7 @@ SOFTWARE.
 
 
 ## keanoserver's license
-The following applies to the modifications and additional files provided by keanoserver, including `p12.py`, `instructions.md`:
+The following applies to the modifications and additional files provided by keanoserver, including `vpn.py`, `instructions.md`:
 
 Copyright (c) 2024 keanoserver
 
@@ -44,4 +44,4 @@ By using, copying, modifying, or distributing the Software, you agree to do so a
 ## Original Files and Modifications
 
 - **Original Files:** `ChromeTemplate.onc`, `ovpnoncorator.py` (from OVPNOncorator by jen_h)
-- **Modified Files:** `ovpnoncorator.py`
+- **Modified Files:** `ovpnoncorator.py` (This is change to `vpn.py`)

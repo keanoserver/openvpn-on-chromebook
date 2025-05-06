@@ -31,8 +31,7 @@ This repository includes contributions from keanoserver, which are licensed unde
 ## The Makers of the Files
 
 - **[ChromeTemplate.onc](ChromeTemplate.onc)** | jen_h
-- **[onc.py](onc.py)** | jen_h
-- **[p12.py](p12.py)** | keanoserver
+- **[vpn.py](vpn.py)** | jen_h, keanoserver
 - **[instructions.md](instructions.md)** | keanoserver
 
 ## Contact
